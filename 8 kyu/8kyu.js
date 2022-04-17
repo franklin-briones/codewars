@@ -46,3 +46,25 @@ function pastLOC(h,m,s) {
     return (h*3600+m*60+s)*1000;
 }
 
+//Do math from string on two numbers
+function basicOp(operation,value1,value2) {
+    // return eval(`${value1} ${operation} ${value2}`)
+    return eval(value1+operation+value2)
+}
+
+//Do simple math
+function litres(time){
+    return Math.floor(time*.5)
+}
+let litres2 = time => Math.floor(time*.5)
+
+function countSheeps(arrayOfSheep) {
+    let present = 0;
+    arrayOfSheep.forEach(element => {
+        if (element) {present++}
+    });
+    return present;
+}
+function countSheepFilter(arrayofSheeps) {
+    return arrayofSheeps.filter(Boolean).length;
+}
