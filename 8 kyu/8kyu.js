@@ -1,18 +1,18 @@
 //Even or odd
 
-// //Using simple if statements
-// function even_or_odd(number) {
-//     if (number%2===0) {
-//         return 'Even';
-//     }
-//     else {
-//         return 'Odd';
-//     }
-// }
-// //Using ? operator
-// function evenOrOddQuestion(number)  {
-//     return number%2 ? 'Even':'Odd'
-// }
+//Using simple if statements
+function even_or_odd(number) {
+    if (number%2===0) {
+        return 'Even';
+    }
+    else {
+        return 'Odd';
+    }
+}
+//Using ? operator
+function evenOrOddQuestion(number)  {
+    return number%2 ? 'Even':'Odd'
+}
 
 //String to Number
 var stringToNumber = function(str) {
@@ -68,3 +68,4 @@ function countSheeps(arrayOfSheep) {
 function countSheepFilter(arrayofSheeps) {
     return arrayofSheeps.filter(Boolean).length;
 }
+
